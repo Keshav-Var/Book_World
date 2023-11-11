@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    background-color: #EEEEEE;
+}
+
+.catalog1
+{
+    width: 99.25%;
+    height: 250px;
+    padding: 5px;
+    display: flex;
+}
+
+.book
+{
+    display: flex;
+    border: 2px solid black;
+    width: 33.33%;
+    margin: 5px;
+    padding: 5px;
+}
+
+.book1 img
+{
+    margin: 5px;
+    width: 150px;
+    height: 216px;
+}
+
+.book_details
+{
+    height: 94%;
+    width: 100%;
+    margin: 5px;
+}
+
+.book_details h6
+{
+    font-size: 2em;
+}
+
+.book_details a:hover
+{
+    opacity: 60%;
+}
+
+.catalog_name
+{
+    font-size: 4em;
+}
+
+.book_details button
+{
+    position: relative;
+    bottom: -20px;
+    line-height: 20px;
+    width: 150px;
+    background-color:  #040D12;
+    color: #EEEEEE;
+    border-radius: 7px;
+}

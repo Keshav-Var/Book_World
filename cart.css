@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cart
+{
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+}
+
+table, td, th, tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: fixed;
+    width: 70%;
+}
+
+th{
+    padding: 5px;
+    background-color: #93B1A6;
+}
+
+.sr{
+    width: 40px;
+}
+ .total {
+    font-weight: bold;
+}

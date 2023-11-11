@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* a{
+    text-decoration: none;
+}
+
+.header
+{
+    background-color: #040D12;
+    height: 102px;
+    width: 100%;
+    display: flex;
+    align-content: center;
+}
+.header img
+{
+    height : 100px;
+    width: 100px;
+    
+}
+.webname h1{
+    font-size: 6.2em;
+    position: absolute;
+    left: 30%;
+    display: inline;
+    color: #93B1A6;
+}
+.nav
+{
+    background-color: #93B1A6;
+    border-top: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    height: 40px;
+    width: 100%;
+}
+.navitems {
+    display: flex;
+    justify-content: center;
+    list-style-type: none; 
+}
+
+.list1
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.list1 li
+{
+    margin-top: 10px;
+}
+
+.catalog-content
+{
+    display: none;
+    position: absolute;
+    left: 250px;
+    top: 39px;
+    width: 150px;
+    background-color: #A6D1D6;
+    box-shadow: 5px 10px 8px #888888;
+    z-index: 1px;
+    height: 125px;
+    list-style: none;
+}
+
+
+.navitems a{
+    font-weight: bold;
+    color: #040D12;
+    margin-left: 20px;
+    padding-bottom: 4px;
+}
+
+.navitems li a:hover
+{
+    border-bottom: 5px solid #040D12;
+}
+
+.catalog:hover  .catalog-content {display: block;}
+
+.hero img{
+    height: 400px;
+    width: 50%;
+}
+
+.hero{
+    background-color: #EEEEEE;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.main-content
+{
+    align-items: right;
+    width: 50%;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+    font-weight: 200;
+    line-height: 30px;
+    color: #040D12;
+}
+
+.footer{
+    background-color: #040D12;
+    border-top: 1px solid #EEEEEE;
+    height: 300px;
+    width: 100%;
+    color: #93B1A6;
+}
+
+.footer_content
+{
+    display: flex;
+}
+
+.link
+{
+    width: 40%;
+    padding: 6% 0 0 250px;
+    text-decoration: none;
+}
+
+.link a{
+    color: #4F6F52;
+}
+
+.link a:hover
+{
+    text-decoration: underline;
+}
+.com
+{
+    float: right;
+    width: 40%;
+    flex-grow: 1.44;
+    padding: 6% 100px 0 0;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+}
+.copyright
+{
+    text-align: center;
+    position: relative;
+    top: 30%;
+    
+}
+
+
